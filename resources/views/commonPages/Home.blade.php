@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/styles/style.css">
+    <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
+    <title>Grosgroup | Главная</title>
+</head>
+<body>
+<div class="container">
+    <header class="header">
+        <a href="tel:+79611255550" class="phone-btn-header-link">
+            <div class="phone-btn">
+                <img src="/assets/img/icons/phone.svg" alt="">
+            </div>
+        </a>
+
+        <div class="logo-block">
+            <a href="/">
+                <img src="/assets/img/new-logo.png" alt="">
+            </a>
+
+            <div class="logo-block__name">
+                <div class="logo-block__name-item">
+                    <span>GROSSERVICE</span>
+                    <p>Обслуживание и монтаж</p>
+                </div>
+                <!-- /.logo-block__name-item -->
+
+                <div class="logo-block__name-item logo-block__name-item_mod">
+                    <span>GROSPROJECT</span>
+                    <p>Проектное бюро</p>
+                </div>
+                <!-- /.logo-block__name-item -->
+            </div>
+            <!-- /.logo-block__name -->
+        </div>
+        <!--/.logo-block-->
+
+        <div class="call-menu-block">
+            <div class="phone">
+                <img src="/assets/img/icons/phone.svg" alt="">
+                <a href="tel:+79611255550">+7 961 125 55 50</a>
+            </div>
+            <!--/.phone-->
+
+            <div class="calc-btn">
+                <div class="calc-btn-icon">
+                    <img src="/assets/img/icons/calc.svg" alt="">
+                </div>
+                <div class="calc-text">
+                    <p>Заявка на просчет</p>
+                </div>
+                <!-- /.calc-text -->
+            </div>
+            <!-- /.calc-btn -->
+
+            <div class="menu-btn-block">
+                <span>Меню</span>
+
+                <div class="menu-btn">
+                    <img src="/assets/img/icons/menu.svg" alt="">
+                </div>
+                <!-- /.menu-btn -->
+            </div>
+            <!-- /.menu-btn-block -->
+        </div>
+        <!-- /.call-menu-block -->
+    </header>
+    <div class="main-block">
+        <div class="main-block__container">
+            <img src="/assets/img/main-bg.jpg" alt="" class="main-bg">
+
+            <div class="main-block__container-substrate">
+                <div class="social-block">
+                    <a href="https://vk.com/public198428515">
+                        <span>VK</span>
+                    </a>
+
+                    <a href="https://youtube.com/@SnabPromResurs?si=QeBTWdCIv9oVOzH8">
+                        <span>YO</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/gukasiayn/">
+                        <span>IN</span>
+                    </a>
+                </div>
+                <!--/.social-block-->
+
+                <div class="main-block__container-wrapper">
+                    <div class="main-title__block">
+                        <div class="line_main"></div>
+                        <h1 class="main-title">
+                            Доставляем<br>
+                            и монтируем инженерное<br>
+                            оборудование
+                        </h1>
+                    </div>
+                    <!--/.main-title__block-->
+
+                    <div class="main-block__subtitle">
+                        <h2>Оставьте время для более важных дел, остальное мы сделаем за Вас!</h2>
+                        <p class="main-block__subtitle-text">Электротехническое оборудование, вентиляция, отопительное оборудование,<br>
+                            системы безопасности, видеонаблюдение, а также системы для<br>
+                            водоснабжения и канализации.
+                        </p>
+
+                        <div class="main-block__subtitle-btns">
+                            <div class="main-block__subtitle-btns-block">
+                                <a href="/works">
+                                    <button class="main-block__subtitle-btn">
+                                        <img src="/assets/img/icons/gallery.svg" alt="">
+                                        <p>Наши работы</p>
+                                    </button>
+                                </a>
+                                <a href="https://www.rsg-pride.ru/">
+                                    <button class="main-block__subtitle-btn">
+                                        <img src="/assets/img/icons/calc.svg" alt="">
+                                        <p>Просчет проектирования</p>
+                                    </button>
+                                </a>
+                            </div>
+
+                            <div class="iso-logo">
+                                <img src="/assets/img/iso-label.svg" alt="">
+                                <p>Компания имеет сертификат международных стандартов менеджмента качества ISO 9001</p>
+                            </div>
+                            <!-- /.iso-logo -->
+                        </div>
+                    </div>
+                    <!-- /.main-block__subtitle -->
+                </div>
+                <!--/.main-block__container-wrapper-->
+            </div>
+            <!-- /.main-block__container-substrate -->
+        </div>
+        <!--/.main-block__container-->
+
+        <div class="menu-info">
+            <a href="/services">
+                <div class="menu-info__block menu-info__block_dark">
+                    <div class="menu-info__block-title">
+                        <img src="/assets/img/icons/wrench.svg" alt="">
+                        <h2>Комплексное<br>снабжение</h2>
+                    </div>
+                    <p>Перейти в каталог</p>
+                </div>
+                <!-- /.menu-info__block -->
+            </a>
+
+            <a href="/installation">
+                <div class="menu-info__block">
+                    <div class="menu-info__block-title">
+                        <img src="/assets/img/icons/gear.svg" alt="">
+                        <h2>Монтаж<br>оборудования</h2>
+                    </div>
+                    <p>Выбрать оборудование</p>
+                </div>
+                <!-- /.menu-info__block -->
+            </a>
+        </div>
+        <!--/.menu-info-->
+    </div>
+    <!--/.main-block-->
+</div>
+
+<div class="menu-block">
+    <div class="menu-block__wrapper">
+        <div class="menu-block__header">
+            <a href="/">
+                <img src="/assets/img/new-logo.png" alt="" class="menu-logo">
+            </a>
+
+            <div class="menu-block__header-close">
+                <span>Закрыть</span>
+                <div class="menu-block__header-close-btn">
+                    <img src="/assets/img/icons/cross.svg" alt="">
+                </div>
+            </div>
+            <!-- /.menu-block__header-close -->
+        </div>
+        <!-- /.menu-block__header -->
+
+        <div class="menu-block__content">
+            <div class="menu-block__content-container">
+                <div class="menu-block__content-container-column">
+                    <h2>Основная деятельность</h2>
+                    <div class="menu-block__content-container-column-links">
+                        <a href="/service">
+                            <div class="menu-block__content-container-column-item">
+                                <h3>Комплексное снабжение</h3>
+                                <p>Перейти в каталог</p>
+                            </div>
+                            <!-- /.menu-block__content-container-column-item -->
+                        </a>
+
+                        <a href="/installation">
+                            <div class="menu-block__content-container-column-item">
+                                <h3>Монтаж оборудования</h3>
+                                <p>Выбрать оборудование</p>
+                            </div>
+                            <!-- /.menu-block__content-container-column-item -->
+                        </a>
+                    </div>
+                    <!-- /.menu-block__content-container-column-links -->
+                </div>
+                <!-- /.menu-block__content-container-column -->
+
+                <div class="menu-block__content-container-column">
+                    <h2>Дополнительная информация</h2>
+                    <ul>
+                        <li><a href="/contacts">Контактная информация</a></li>
+                        <li><a href="/about">Компания</a></li>
+                        <li><a href="/works">Наши работы</a></li>
+                        <li><a href="/articles">Статьи</a></li>
+                    </ul>
+                </div>
+                <!-- /.menu-block__content-container-column -->
+            </div>
+            <!-- /.menu-block__content-container -->
+        </div>
+        <!-- /.menu-block__content -->
+    </div>
+</div>
+
+<div class="recall-form-block">
+    <form class="recall-form form-item">
+        <img src="/assets/img/icons/close.svg" alt="" class="close">
+        <h2>Заявка на просчет</h2>
+        <div class="recall-form-columns">
+            <div class="recall-form-column">
+                <div class="input-block">
+                    <input type="text" name="name" id="name" placeholder="Ваше имя *">
+                    <span class="err-text">Имя должно быть не менее 2х символов!</span>
+                </div>
+                <!-- /.input-block -->
+
+                <div class="input-block">
+                    <input type="text" name="email" id="email" placeholder="Email *">
+                    <span class="err-text">Введите корректную почту вида example@example.com!</span>
+                </div>
+                <!-- /.input-block -->
+
+                <div class="input-block">
+                    <input type="text" name="phone" id="phone" placeholder="Телефон *">
+                    <span class="err-text">Введите корректный телефон вида +7(999)999-99-99</span>
+                </div>
+                <!-- /.input-block -->
+            </div>
+            <!-- /.recall-form-column -->
+
+            <div class="recall-form-column">
+                <div class="input-block">
+                    <textarea name="message" id="message" placeholder="Ваше сообщение"></textarea>
+                </div>
+                <!-- /.input-block -->
+            </div>
+            <!-- /.recall-form-column -->
+        </div>
+        <!--/.recall-form-columns-->
+
+        <div class="recall-form-columns recall-form-columns_bottom">
+            <div class="recall-form-column">
+                <div class="accept-policy">
+                    <input type="checkbox" checked name="policy" id="policy">
+                    <label for="policy">Согласен на обработку персональны данных в соответствии с <a href="#">Пользовательским соглашением</a></label>
+                </div>
+                <!-- /.accept-policy -->
+            </div>
+            <!--/.recall-form-column-->
+
+            <div class="recall-form-column recall-form-column_justify-end">
+                <input type="submit" value="Отправить запрос" class="send-message base-btn">
+                <div class="await-btn base-btn">
+                    <img src="/assets/img/icons/gear-white.svg" alt="">
+                    <p>Отправка</p>
+                </div>
+            </div>
+            <!--/.recall-form-column-->
+        </div>
+        <!--/.recall-form-columns-->
+    </form>
+    <!--/.recall-form-->
+
+    <div class="success-message form-item">
+        <img src="/assets/img/icons/close.svg" alt="" class="close">
+        <img src="/assets/img/icons/success.svg" alt="" class="succsess">
+        <h2>Ваша заявка успешно отправлена</h2>
+        <button class="base-btn close-success">Закрыть</button>
+    </div>
+    <!--/.success-message-->
+</div>
+
+<script src="/assets/js/main.js"></script>
+</body>
+</html>
