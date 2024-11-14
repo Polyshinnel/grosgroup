@@ -20,7 +20,7 @@
                 <div class="menu-block__content-container-column">
                     <h2>Основная деятельность</h2>
                     <div class="menu-block__content-container-column-links">
-                        <a href="#">
+                        <a href="/services">
                             <div class="menu-block__content-container-column-item">
                                 <h3>Комплексное снабжение</h3>
                                 <p>Перейти в каталог</p>
@@ -28,7 +28,7 @@
                             <!-- /.menu-block__content-container-column-item -->
                         </a>
 
-                        <a href="#">
+                        <a href="/installation">
                             <div class="menu-block__content-container-column-item">
                                 <h3>Монтаж оборудования</h3>
                                 <p>Выбрать оборудование</p>
@@ -43,10 +43,10 @@
                 <div class="menu-block__content-container-column">
                     <h2>Дополнительная информация</h2>
                     <ul>
-                        <li><a href="#">Контактная информация</a></li>
-                        <li><a href="#">Компания</a></li>
-                        <li><a href="#">Наши работы</a></li>
-                        <li><a href="#">Статьи</a></li>
+                        <li><a href="/contacts">Контактная информация</a></li>
+                        <li><a href="/about">Компания</a></li>
+                        <li><a href="/works">Наши работы</a></li>
+                        <li><a href="/articles">Статьи</a></li>
                     </ul>
                 </div>
                 <!-- /.menu-block__content-container-column -->
