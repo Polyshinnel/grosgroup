@@ -1,5 +1,5 @@
 @extends('layouts.base_layout')
-@section('page_title', 'Электрика')
+@section('page_title', 'О компании')
 
 @section('content')
     <div class="box-container">
