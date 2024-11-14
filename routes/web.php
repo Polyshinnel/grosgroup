@@ -1,6 +1,10 @@
 <?php
 
 use App\Http\Controllers\Pages\HomeController;
+use App\Http\Controllers\Pages\Installation\ElectricalInstallationController;
+use App\Http\Controllers\Pages\Installation\ElectricalShieldInstallationController;
+use App\Http\Controllers\Pages\Installation\SplitInstallationController;
+use App\Http\Controllers\Pages\Installation\VentilationInstallationController;
 use App\Http\Controllers\Pages\Service\CommonPageController;
 use App\Http\Controllers\Pages\Service\ElectricalPageController;
 use App\Http\Controllers\Pages\Service\PlumberPageController;
@@ -27,3 +31,14 @@ Route::get('/services/common', CommonPageController::class);
 Route::get('/services', function () {
     return redirect('/services/electrician');
 });
+
+
+Route::get('/installation', function () {
+    return redirect('/installation/electrician');
+});
+Route::get('/installation/electrician', ElectricalInstallationController::class);
+Route::get('/installation/split', SplitInstallationController::class);
+Route::get('/installation/electrical-commutation', ElectricalShieldInstallationController::class);
+Route::get('/installation/ventilation', VentilationInstallationController::class);
+
+
