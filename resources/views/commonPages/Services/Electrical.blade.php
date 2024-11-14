@@ -138,19 +138,19 @@
                     <h2>Заказ оборудования</h2>
 
                     <div class="input-block">
-                        <input type="text" name="name" id="name" placeholder="Ваше имя *">
+                        <input type="text" name="name_service" id="name_service" placeholder="Ваше имя *">
                         <span class="err-text">Имя должно быть не менее 2х символов!</span>
                     </div>
                     <!-- /.input-block -->
 
                     <div class="input-block">
-                        <input type="text" name="email" id="email" placeholder="Email *">
+                        <input type="text" name="email_service" id="email_service" placeholder="Email *">
                         <span class="err-text">Введите корректную почту вида example@example.com!</span>
                     </div>
                     <!-- /.input-block -->
 
                     <div class="input-block">
-                        <input type="text" name="phone" id="phone" placeholder="Телефон *">
+                        <input type="text" name="phone_service" id="phone_service" placeholder="Телефон *">
                         <span class="err-text">Введите корректный телефон вида +7(999)999-99-99</span>
                     </div>
                     <!-- /.input-block -->
@@ -162,6 +162,8 @@
                         </div>
                     </div>
                     <!-- /.input-block -->
+
+                    <input type="hidden" name="type_form" value="Электрика">
 
                     <input type="submit" value="Отправить заявку" class="base-btn send-demand">
                 </form>

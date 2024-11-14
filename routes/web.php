@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Pages\AboutPageController;
 use App\Http\Controllers\Pages\HomeController;
 use App\Http\Controllers\Pages\Installation\ElectricalInstallationController;
 use App\Http\Controllers\Pages\Installation\ElectricalShieldInstallationController;
@@ -40,5 +41,7 @@ Route::get('/installation/electrician', ElectricalInstallationController::class)
 Route::get('/installation/split', SplitInstallationController::class);
 Route::get('/installation/electrical-commutation', ElectricalShieldInstallationController::class);
 Route::get('/installation/ventilation', VentilationInstallationController::class);
+
+Route::get('/about', AboutPageController::class);
 
 

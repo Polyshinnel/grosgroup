@@ -71,19 +71,19 @@
 
                 <form class="montage-block__form">
                     <div class="input-block">
-                        <input type="text" name="name" id="name" placeholder="Ваше имя *">
+                        <input type="text" name="name_montage" id="name_montage" placeholder="Ваше имя *">
                         <span class="err-text">Имя должно быть не менее 2х символов!</span>
                     </div>
                     <!-- /.input-block -->
 
                     <div class="input-block">
-                        <input type="text" name="email" id="email" placeholder="Email *">
+                        <input type="text" name="email_montage" id="email_montage" placeholder="Email *">
                         <span class="err-text">Введите корректную почту вида example@example.com!</span>
                     </div>
                     <!-- /.input-block -->
 
                     <div class="input-block">
-                        <input type="text" name="phone" id="phone" placeholder="Телефон *">
+                        <input type="text" name="phone_montage" id="phone_montage" placeholder="Телефон *">
                         <span class="err-text">Введите корректный телефон вида +7(999)999-99-99</span>
                     </div>
                     <!-- /.input-block -->
