@@ -7,7 +7,15 @@
     <link rel="stylesheet" href="/assets/js/splide/splide.min.css">
     <link rel="stylesheet" href="/assets/styles/style.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-    <title>Grosgroup | @yield('page_title')</title>
+
+    <link rel="canonical" href="@yield('canonical')">
+    <meta name="title" property="title" content="@yield('page_title')">
+    <meta name="description" property="description" content="@yield('description')">
+    <meta name="og:type" property="og:type" content="website">
+    <meta name="og:title" property="og:title" content="@yield('page_title')">
+    <meta name="og:description" property="og:description" content="@yield('description')">
+
+    <title>@yield('page_title')</title>
 </head>
 <body>
     @include('components.header')

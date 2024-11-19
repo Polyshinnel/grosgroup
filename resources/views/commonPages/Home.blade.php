@@ -5,7 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/styles/style.css">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
-    <title>Grosgroup | Главная</title>
+
+    <link rel="canonical" href="{{$pageInfo['canonical']}}">
+    <meta name="title" property="title" content="{{$pageInfo['title']}}">
+    <meta name="description" property="description" content="{{$pageInfo['description']}}">
+    <meta name="og:type" property="og:type" content="website">
+    <meta name="og:title" property="og:title" content="{{$pageInfo['title']}}">
+    <meta name="og:description" property="og:description" content="{{$pageInfo['title']}}">
+
+    <title>{{$pageInfo['title']}}</title>
 </head>
 <body>
 <div class="container">

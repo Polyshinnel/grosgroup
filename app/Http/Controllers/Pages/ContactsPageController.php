@@ -2,12 +2,15 @@
 
 namespace App\Http\Controllers\Pages;
 
+use App\Http\Controllers\BasePageController;
 use App\Http\Controllers\Controller;
+use Illuminate\Http\Request;
 
-class ContactsPageController extends Controller
+class ContactsPageController extends BasePageController
 {
-    public function __invoke()
+    public function __invoke(Request $request)
     {
-        return view('commonPages.Contacts');
+        $pageInfo = $this->getPageInfo($request);
+        return view('commonPages.Contacts', ['pageInfo' => $pageInfo]);
     }
 }

@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers\Pages\Installation;
 
+use App\Http\Controllers\BasePageController;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class ElectricalShieldInstallationController extends Controller
+class ElectricalShieldInstallationController extends BasePageController
 {
-    public function __invoke()
+    public function __invoke(Request $request)
     {
-        return view('commonPages.Installation.Electrical-shield');
+        $pageInfo = $this->getPageInfo($request);
+        return view('commonPages.Installation.Electrical-shield', ['pageInfo' => $pageInfo]);
     }
 }

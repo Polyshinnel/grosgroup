@@ -1,5 +1,9 @@
 @extends('layouts.base_layout')
-@section('page_title', 'Щитовое оборудование')
+
+@section('page_title', $pageInfo['title'])
+@section('description', $pageInfo['description'])
+@section('canonical', $pageInfo['canonical'])
+
 
 @section('content')
     <div class="box-container">

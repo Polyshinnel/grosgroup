@@ -2,13 +2,15 @@
 
 namespace App\Http\Controllers\Pages\Service;
 
+use App\Http\Controllers\BasePageController;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class VentilationPageController extends Controller
+class VentilationPageController extends BasePageController
 {
-    public function __invoke()
+    public function __invoke(Request $request)
     {
-        return view('commonPages.Services.Ventilation');
+        $pageInfo = $this->getPageInfo($request);
+        return view('commonPages.Services.Ventilation', ['pageInfo' => $pageInfo]);
     }
 }
