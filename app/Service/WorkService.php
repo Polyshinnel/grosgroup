@@ -36,7 +36,26 @@ class WorkService
 
     public function getWorkById(int $id): array
     {
-
+        $work = $this->workRepository->getWorkById($id);
+        $workImg = $work->worksImages;
+        $clearImg = [];
+        if(!$workImg->isEmpty()) {
+            foreach ($workImg as $item) {
+                $clearImg[] = $item->img;
+            }
+        }
+        return [
+            'page_info' => [
+                'title' => $work->title,
+                'description' => $work->description_tag,
+                'canonical' => ''
+            ],
+            'page_data' => [
+                'title' => $work->title,
+                'description' => $work->description,
+            ],
+            'images' => $clearImg
+        ];
     }
 
 }

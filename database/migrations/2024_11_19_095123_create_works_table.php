@@ -14,6 +14,7 @@ return new class extends Migration
         Schema::create('works', function (Blueprint $table) {
             $table->id();
             $table->string('title');
+            $table->string('description_tag');
             $table->string('type_work');
             $table->string('thumbnail');
             $table->text('description');

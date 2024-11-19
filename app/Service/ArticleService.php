@@ -26,7 +26,7 @@ class ArticleService
                     'title' => $article->title,
                     'description' => $article->description,
                     'thumbnail' => $article->thumbnail,
-                    'date' => $this->utilsClass->reformatDate($article->date, 'ru'),
+                    'date' => $this->utilsClass->reformatDate($article->created_at, 'ru'),
                 ];
             }
         }
@@ -36,6 +36,13 @@ class ArticleService
 
     public function getArticleById(int $id): array
     {
-        return $this->articleRepository->getArticleById($id)->toArray();
+        $article = $this->articleRepository->getArticleById($id);
+        return [
+            'page_info' => [
+                'title' => $article->title,
+                'description' => $article->description
+            ],
+            'html' => $article->html
+        ];
     }
 }

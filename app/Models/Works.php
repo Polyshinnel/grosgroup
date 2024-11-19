@@ -14,6 +14,6 @@ class Works extends Model
 
     public function worksImages(): HasMany
     {
-        return $this->hasMany(WorksImages::class, 'id', 'works_id');
+        return $this->hasMany(WorksImages::class, 'work_id', 'id');
     }
 }
