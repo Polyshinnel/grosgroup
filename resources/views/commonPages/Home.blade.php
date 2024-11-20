@@ -129,12 +129,6 @@
                                     </button>
                                 </a>
                             </div>
-
-                            <div class="iso-logo">
-                                <img src="/assets/img/iso-label.svg" alt="">
-                                <p>Компания имеет сертификат международных стандартов менеджмента качества ISO 9001</p>
-                            </div>
-                            <!-- /.iso-logo -->
                         </div>
                     </div>
                     <!-- /.main-block__subtitle -->
