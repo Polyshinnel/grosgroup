@@ -1602,7 +1602,7 @@ a {
   }
 }
 .article-body {
-  margin-top: 40px;
+  margin-top: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -1611,6 +1611,11 @@ a {
   margin: 20px 0;
   text-align: left;
   width: 100%;
+}
+.article-body p {
+  width: 100%;
+  text-align: left;
+  margin-top: 20px;
 }
 .article-body img {
   text-align: center;
@@ -1624,14 +1629,20 @@ a {
   background: #e9e9e9;
   margin-bottom: 20px;
 }
+.article-body .note-block p {
+  margin: 0;
+  padding: 0 20px;
+}
 .article-body ol {
   padding-left: 20px;
   margin-top: 20px;
   display: flex;
   align-items: center;
   flex-direction: column;
+  width: 100%;
 }
 .article-body ol li {
   margin-top: 10px;
   width: 100%;
+  text-align: left;
 }/*# sourceMappingURL=style.css.map */

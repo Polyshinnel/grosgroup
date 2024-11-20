@@ -1873,7 +1873,7 @@ a{
 }
 
 .article-body{
-    margin-top: 40px;
+    margin-top: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1882,6 +1882,12 @@ a{
         margin: 20px 0;
         text-align: left;
         width: 100%;
+    }
+
+    p{
+        width: 100%;
+        text-align: left;
+        margin-top: 20px;
     }
 
     img{
@@ -1896,6 +1902,11 @@ a{
         padding: 20px 0;
         background: #e9e9e9;
         margin-bottom: 20px;
+
+        p{
+            margin: 0;
+            padding: 0 20px;
+        }
     }
 
     ol{
@@ -1904,10 +1915,12 @@ a{
         display: flex;
         align-items: center;
         flex-direction: column;
+        width: 100%;
 
         li{
             margin-top: 10px;
             width: 100%;
+            text-align: left;
         }
     }
 }
