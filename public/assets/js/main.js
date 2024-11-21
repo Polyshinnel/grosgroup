@@ -159,7 +159,9 @@ contactRecallForm.onsubmit = async (e) => {
         document.getElementById('send-recall-form').style.display = 'none'
         document.getElementById('await-btn').style.display = 'flex'
 
-        let data = sendMessage(dataObj)
+        let data = await sendMessage(dataObj)
+        console.log(data)
+        console.log(data.message)
 
         if(data.message === 'message sent') {
             contactRecallForm.style.display = 'none'
@@ -189,7 +191,7 @@ if(contactForm) {
             document.getElementById('send-contact-form').style.display = 'none'
             awaitBtn.style.display = 'flex'
 
-            let data = sendMessage(dataObj)
+            let data = await sendMessage(dataObj)
 
             if(data.message === 'message sent') {
                 awaitBtn.style.display = 'none'
@@ -222,7 +224,7 @@ if(serviceForm) {
             document.getElementById('send-supply-form').style.display = 'none'
             awaitBtn.style.display = 'flex'
 
-            let data = sendMessage(dataObj)
+            let data = await sendMessage(dataObj)
 
             if(data.message === 'message sent') {
                 awaitBtn.style.display = 'none'
@@ -255,7 +257,7 @@ if(montageForm){
             document.getElementById('send-motage-form').style.display = 'none'
             awaitBtn.style.display = 'flex'
 
-            let data = sendMessage(dataObj)
+            let data = await sendMessage(dataObj)
 
             if(data.message === 'message sent') {
                 awaitBtn.style.display = 'none'
