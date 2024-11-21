@@ -21,12 +21,7 @@ class TelegramController extends Controller
         $data = $request->validated();
         try {
             $message = sprintf(
-                "
-                    <b>Новое сообщение с сайта!</b>\n
-                    <b>Тип сообщения:</b><i>%s</i>\n
-                    <b>Имя:</b> %s\n
-                    <b>Телефон:</b> %s\n
-                    ",
+                "<b>Новое сообщение с сайта!</b>\n<b>Тип сообщения:</b><i>%s</i>\n<b>Имя:</b> %s\n<b>Телефон:</b> %s\n",
                 $data['type'],
                 $data['name'],
                 $data['phone']
