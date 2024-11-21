@@ -34,7 +34,9 @@ class TelegramController extends Controller
                 $message .= sprintf("<b>Сообщение:</b>%s \n", $data['message']);
             }
             if(isset($data['flag'])) {
-                $message .= "<b>Требуется монтаж:</b> Да \n";
+                if($data['flag']) {
+                    $message .= "<b>Требуется монтаж:</b> Да \n";
+                }
             }
 
             $this->telegram->sendMessage([

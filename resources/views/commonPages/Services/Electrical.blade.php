@@ -167,7 +167,7 @@
                     </div>
                     <!-- /.input-block -->
 
-                    <input type="hidden" name="type_form" value="Снабжение: Электрика">
+                    <input type="hidden" name="type_form" id="type-form" value="Снабжение: Электрика">
 
                     <input type="submit" value="Отправить заявку" class="base-btn send-demand" id="send-supply-form">
 

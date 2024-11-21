@@ -46,7 +46,7 @@
 
             <div class="recall-form-column recall-form-column_justify-end">
                 <input type="submit" value="Отправить запрос" class="send-message base-btn" id="send-recall-form">
-                <div class="await-btn base-btn">
+                <div class="await-btn base-btn" id="await-btn">
                     <img src="/assets/img/icons/gear-white.svg" alt="">
                     <p>Отправка</p>
                 </div>

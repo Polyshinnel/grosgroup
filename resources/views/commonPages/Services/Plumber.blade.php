@@ -176,7 +176,7 @@
 
                     <input type="hidden" name="type_form" value="Снабжение: Водоснабжение">
 
-                    <input type="submit" value="Отправить заявку" class="base-btn send-demand" id="send-supply-form">
+                    <input type="submit" value="Отправить заявку" id="type-form" class="base-btn send-demand" id="send-supply-form">
 
                     <div class="await-btn base-btn">
                         <img src="/assets/img/icons/gear-white.svg" alt="">

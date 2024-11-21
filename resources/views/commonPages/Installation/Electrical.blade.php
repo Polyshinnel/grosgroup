@@ -93,7 +93,7 @@
                     </div>
                     <!-- /.input-block -->
 
-                    <input type="hidden" name="type_form" value="Установка: электромонтажные работы">
+                    <input type="hidden" name="type_form" id="type-form" value="Установка: электромонтажные работы">
 
                     <input type="submit" value="Отправить заявку" id="send-motage-form" class="base-btn send-montage">
 

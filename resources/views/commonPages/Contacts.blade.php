@@ -98,7 +98,7 @@
                         <div class="input-line-item">
                             <div class="input-block">
                                 <input type="text" name="contacts-phone" id="contacts-phone" placeholder="Ваш телефон *">
-                                <span class="err-text">Имя должно быть не менее 2х символов!</span>
+                                <span class="err-text">Введите корректный телефон вида +7(999)999-99-99</span>
                             </div>
                             <!-- /.input-block -->
                         </div>
@@ -108,6 +108,7 @@
 
                     <div class="input-block">
                         <textarea name="contacts-message" id="contacts-message" placeholder="Ваше сообщение *"></textarea>
+                        <span class="err-text">Поле сообщение не должно быть пустым!</span>
                     </div>
                     <!-- /.input-block -->
 

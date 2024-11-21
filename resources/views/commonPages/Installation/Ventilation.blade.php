@@ -92,7 +92,7 @@
                     </div>
                     <!-- /.input-block -->
 
-                    <input type="hidden" name="type_form" value="Установка: вентиляция">
+                    <input type="hidden" name="type_form" id="type-form" value="Установка: вентиляция">
 
                     <input type="submit" value="Отправить заявку" class="base-btn send-montage" id="send-motage-form">
 

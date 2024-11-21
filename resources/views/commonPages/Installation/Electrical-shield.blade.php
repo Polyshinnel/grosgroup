@@ -107,7 +107,7 @@
                     </div>
                     <!-- /.input-block -->
 
-                    <input type="hidden" name="type_form" value="Установка: щитовое оборудование">
+                    <input type="hidden" name="type_form" id="type-form" value="Установка: щитовое оборудование">
 
                     <input type="submit" value="Отправить заявку" class="base-btn send-montage" id="send-motage-form">
 
