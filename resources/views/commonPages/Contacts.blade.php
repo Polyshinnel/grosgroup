@@ -111,10 +111,15 @@
                     </div>
                     <!-- /.input-block -->
 
-                    <input type="submit" value="Отправить запрос" class="send-message base-btn">
+                    <input type="submit" value="Отправить запрос" class="send-message base-btn" id="send-contact-form">
                     <div class="await-btn base-btn">
-                        <img src="assets/img/icons/gear-white.svg" alt="">
+                        <img src="/assets/img/icons/gear-white.svg" alt="">
                         <p>Отправка</p>
+                    </div>
+
+                    <div class="succsess-btn base-btn">
+                        <img src="/assets/img/icons/gear-white.svg" alt="">
+                        <p>Успешно отправлено</p>
                     </div>
                 </form>
                 <!-- /.contacts-form -->

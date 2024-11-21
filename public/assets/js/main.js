@@ -48,3 +48,41 @@ closeForm.forEach((element) => {
 closeSuccess.onclick = () => {
     showForm(recallForm)
 }
+
+let formPhone = document.getElementById('phone');
+Inputmask({"mask": "+7(999)999-99-99"}).mask(formPhone);
+
+let phoneService = document.getElementById('phone_service')
+if(phoneService) {
+    Inputmask({"mask": "+7(999)999-99-99"}).mask(phoneService);
+}
+
+let phoneMontage = document.getElementById('phone_montage')
+if(phoneMontage) {
+    Inputmask({"mask": "+7(999)999-99-99"}).mask(phoneMontage);
+}
+
+let phoneContacts = document.getElementById('contacts-phone')
+if(phoneContacts) {
+    Inputmask({"mask": "+7(999)999-99-99"}).mask(phoneContacts);
+}
+
+const sendMessage = async () => {
+    let obj = {
+        type: "Форма обратной связи",
+        name: "Нестеров Андрей",
+        phone: "+79030264456",
+        email: "polyshinnel@gmail.com",
+        message: "Тестовое сообщение",
+        flag: true
+    }
+    let {data} = await axios.post('https://grosgroup.ru/send-message',obj)
+    return data
+}
+
+let contactRecallForm = document.querySelector('.recall-form')
+contactRecallForm.onsubmit = async (e) => {
+    e.preventDefault()
+    let data = await sendMessage()
+    console.log(data)
+}

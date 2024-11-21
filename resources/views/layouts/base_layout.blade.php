@@ -28,6 +28,7 @@
     @include('components.menu')
     @include('components.recall-form')
     <script src="/assets/js/axios.min.js"></script>
+    <script src="/assets/js/inputmask.min.js"></script>
     <script src="/assets/js/main.js"></script>
 </body>
 </html>

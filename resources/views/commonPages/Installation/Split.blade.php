@@ -89,7 +89,19 @@
                     </div>
                     <!-- /.input-block -->
 
-                    <input type="submit" value="Отправить заявку" class="base-btn send-montage">
+                    <input type="hidden" name="type_form" value="Установка: кондиционеры">
+
+                    <input type="submit" value="Отправить заявку" class="base-btn send-montage" id="send-motage-form">
+
+                    <div class="await-btn base-btn">
+                        <img src="/assets/img/icons/gear-white.svg" alt="">
+                        <p>Отправка</p>
+                    </div>
+
+                    <div class="succsess-btn base-btn">
+                        <img src="/assets/img/icons/gear-white.svg" alt="">
+                        <p>Успешно отправлено</p>
+                    </div>
                 </form>
                 <!-- /.service-container__form -->
             </div>
