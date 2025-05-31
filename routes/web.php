@@ -9,6 +9,7 @@ use App\Http\Controllers\Pages\Installation\ElectricalInstallationController;
 use App\Http\Controllers\Pages\Installation\ElectricalShieldInstallationController;
 use App\Http\Controllers\Pages\Installation\SplitInstallationController;
 use App\Http\Controllers\Pages\Installation\VentilationInstallationController;
+use App\Http\Controllers\Pages\PolicyPage;
 use App\Http\Controllers\Pages\Service\CommonPageController;
 use App\Http\Controllers\Pages\Service\ElectricalPageController;
 use App\Http\Controllers\Pages\Service\PlumberPageController;
@@ -56,4 +57,6 @@ Route::get('/articles/{article}', ArticlePageItemController::class);
 
 Route::get('/works', WorksPageController::class);
 Route::get('/works/{work}', WorksPageItemController::class);
+
+Route::get('/policy', PolicyPage::class);
 

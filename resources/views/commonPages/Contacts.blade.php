@@ -78,6 +78,10 @@
                         <p>Работаем с 9:00 до 17:00</p>
                     </div>
                 </div>
+
+                <div class="contacts-content__item">
+                    <a href="/policy">Политика персональных данных</a>
+                </div>
             </div>
             <!-- /.contacts-content -->
 
