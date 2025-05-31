@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/assets/js/fancybox/fancybox.css">
     <link rel="stylesheet" href="/assets/js/splide/splide.min.css">
-    <link rel="stylesheet" href="/assets/styles/style.css?ver=123">
+    <link rel="stylesheet" href="/assets/styles/style.css?ver=1234">
     <link rel="shortcut icon" href="/assets/img/favicon.ico" type="image/x-icon">
 
     <link rel="canonical" href="@yield('canonical')">
@@ -28,6 +28,7 @@
     @include('components.menu')
     @include('components.recall-form')
     <script src="/assets/js/axios.min.js"></script>
-    <script src="/assets/js/main.js"></script>
+    <script src="/assets/js/inputmask.min.js"></script>
+    <script src="/assets/js/main.js?ver=123"></script>
 </body>
 </html>

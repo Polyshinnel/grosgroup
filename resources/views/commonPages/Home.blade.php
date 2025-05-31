@@ -171,6 +171,8 @@
 
 @include('components.recall-form')
 
-<script src="/assets/js/main.js"></script>
+<script src="/assets/js/axios.min.js"></script>
+<script src="/assets/js/inputmask.min.js"></script>
+<script src="/assets/js/main.js?ver=123"></script>
 </body>
 </html>

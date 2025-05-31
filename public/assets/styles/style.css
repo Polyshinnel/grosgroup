@@ -1079,6 +1079,9 @@ a {
 .service-container__form-block .service-container__form .send-demand:hover {
   background: #000;
 }
+.service-container__form-block .service-container__form .base-btn {
+  width: 100%;
+}
 
 .input-block__checkbox {
   display: flex;
@@ -1199,6 +1202,9 @@ a {
 }
 .montage-block__form .send-montage:hover {
   background: #000;
+}
+.montage-block__form .base-btn {
+  width: 100%;
 }
 
 .montage-content {
@@ -1362,24 +1368,41 @@ a {
 .contacts-form .send-message:hover {
   background: #000;
 }
-.contacts-form .await-btn {
+
+.await-btn {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 40px;
   display: none;
 }
-.contacts-form .await-btn p {
+.await-btn p {
   color: #fff;
   font-size: 20px;
 }
-.contacts-form .await-btn img {
+.await-btn img {
   margin-right: 20px;
   width: 30px;
   animation-name: rotation;
   animation-duration: 5s;
   animation-iteration-count: infinite;
   animation-timing-function: linear;
+}
+
+.succsess-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 40px;
+  display: none;
+}
+.succsess-btn p {
+  color: #fff;
+  font-size: 20px;
+}
+.succsess-btn img {
+  margin-right: 20px;
+  width: 30px;
 }
 
 .map-block {

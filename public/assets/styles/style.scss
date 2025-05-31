@@ -1226,6 +1226,10 @@ a{
                 background: #000;
             }
         }
+
+        .base-btn{
+            width: 100%;
+        }
     }
 }
 
@@ -1383,6 +1387,10 @@ a{
         &:hover{
             background: #000;
         }
+    }
+
+    .base-btn{
+        width: 100%;
     }
 }
 
@@ -1591,27 +1599,45 @@ a{
             background: #000;
         }
     }
+}
 
-    .await-btn{
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin-top: 40px;
-        display: none;
+.await-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    display: none;
 
-        p{
-            color: #fff;
-            font-size: 20px;
-        }
+    p{
+        color: #fff;
+        font-size: 20px;
+    }
 
-        img{
-            margin-right: 20px;
-            width: 30px;
-            animation-name: rotation;
-            animation-duration: 5s;
-            animation-iteration-count: infinite;
-            animation-timing-function: linear;
-        }
+    img{
+        margin-right: 20px;
+        width: 30px;
+        animation-name: rotation;
+        animation-duration: 5s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+}
+
+.succsess-btn{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    display: none;
+
+    p{
+        color: #fff;
+        font-size: 20px;
+    }
+
+    img{
+        margin-right: 20px;
+        width: 30px;
     }
 }
 

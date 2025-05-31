@@ -16,6 +16,7 @@ use App\Http\Controllers\Pages\Service\PlumberPageController;
 use App\Http\Controllers\Pages\Service\VentilationPageController;
 use App\Http\Controllers\Pages\Works\WorksPageController;
 use App\Http\Controllers\Pages\Works\WorksPageItemController;
+use App\Http\Controllers\Telegram\TelegramController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -57,6 +58,8 @@ Route::get('/articles/{article}', ArticlePageItemController::class);
 
 Route::get('/works', WorksPageController::class);
 Route::get('/works/{work}', WorksPageItemController::class);
+
+Route::post('/send-message', TelegramController::class);
 
 Route::get('/policy', PolicyPage::class);
 
